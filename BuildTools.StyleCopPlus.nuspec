@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>BuildTools.StyleCopPlus</id>
+        <version>4.7.49.4</version>
+        <title>BuildTools.StyleCopPlus</title>
+        <authors>Christopher Dresel</authors>
+        <owners>Christopher Dresel</owners>
+        <licenseUrl>http://www.opensource.org/licenses/mit-license.php</licenseUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<projectUrl>https://github.com/Dresel/BuildTools.StyleCopPlus</projectUrl>
+		<iconUrl>https://raw.githubusercontent.com/dresel/BuildTools.StyleCopPlus/master/images/StyleCopPlusLogo.png</iconUrl>
+        <description>BuildTools.StyleCopPlus integrates StyleCopPlus into the build process.
+
+This is just a simple Nuget that sets StyleCopAdditionalAddinPaths to the StyleCopPlus.dll folder. All regards to the corresponding authors.</description>
+        <releaseNotes>Corresponds to StyleCop+ 1.10</releaseNotes>      
+        <tags>Build, BuildTools, StyleCop, StyleCopPlus, StyleCop+</tags>	
+		<dependencies>
+		  <dependency id="BuildTools.StyleCop" version="4.7.49.0" />
+		</dependencies>
+    </metadata>
+    <files>
+	    <file src="content\deleteme.txt" target="content\deleteme.txt" />
+        <file src="tools\install.ps1" target="tools\install.ps1" />
+		<file src="tools\uninstall.ps1" target="tools\uninstall.ps1" />
+        <file src="tools\StyleCopPlus.dll" target="tools\StyleCopPlus.dll" /> 
+    </files>
+</package>
